@@ -41,14 +41,34 @@
 
 # Comp_operator()
 
-day = "Idk"
+# day = input("Enter the time of day(sun or Moon)")
 
-def guess():
-    if(day == "Sun"):
-        print("It's Light")
-    elif(day == "Moon"):
-        print("It's Night")
+# def guess():
+#     if(day == "Sun" or day == "sun"):
+#         print("It's Light")
+#     elif(day == "Moon" or day == "moon"):
+#         print("It's Night")
+#     else:
+#         print("It's Invalid")
+
+# guess()
+
+a = input("Enter 1st Number")
+b = input("Enter 2nd Number")
+choose = (["+", "-", "*", "/"])
+print(choose)
+input("Enter Choice")
+
+def Calculator():
+    if(choose == "+"):
+        print(a + b)
+    elif(choose == "-"):
+        print(a - b)
+    elif(choose == "*"):
+        print(a * b)
+    elif(choose == "/"):
+        print(a / b)
     else:
-        print("It's Invalid")
+        print("Invalid Choosed Option")
 
-guess()
+Calculator()
