@@ -120,10 +120,17 @@
 # year = int(input())
 # print(is_leap(year))
 
-if __name__ == '__main__':
-    n = int(input())
-    for i in range(1,n + 1):
-        print(i, end="")
+# if __name__ == '__main__':
+#     n = int(input())
+#     for i in range(1,n + 1):
+#         print(i, end="")
 
 
+# for i in range(5):
+#     print(i)
 
+
+marks = [1, 2, 3]
+# print(marks[-3])
+for m in marks:
+    print(m)
