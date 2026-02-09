@@ -130,6 +130,8 @@
 #     print(i)
 
 
+#---Lists---
+
 # marks = [1, 2, 3]
 # print(marks[-3])
 # for m in marks:
@@ -144,9 +146,14 @@
 #     print(marks[i])
 #     i = i + 1
 
-students = ["Mac", "Sak", "Kam", "Bo", "Janhvee"]
+# students = ["Mac", "Sak", "Kam", "Bo", "Janhvee"]
 
-for student in students:
-    if student == "Kam":
-        continue
-    print(student)
+# for student in students:
+#     if student == "Kam":
+#         continue
+#     print(student)
+
+#---TUples---
+
+marks = (1,2,3)
+print(marks(type))
