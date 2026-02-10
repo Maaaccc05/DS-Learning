@@ -183,7 +183,7 @@
 
 # a = 1
 # b = 2
-def printSum(a, b):
-    print(a + b)
+# def printSum(a, b):
+#     print(a + b)
 
-printSum(1 , 2)
+# printSum(1 , 2)
