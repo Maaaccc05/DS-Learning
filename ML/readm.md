@@ -4,31 +4,53 @@
     Machine Learning is a way of teaching computers to learn from data - Just like we humans learn from expierences
     Insted of programming every step, we give machines lots of data and let them figure out patterns on their own
 
-1. Youtube Recommendations -> Learns from your watch history
-2. Spam Detection in Gmail -> Learns Patterns in spam emails
-3. Voice Assistant(Siri, Alexa) -> Learn how you speak
-4. Self-driving cars -> Learn to identify stop signs, pedestrians, and roads
-5. Face Unlock on phones -> Learns to recognize your Face
+    1. Youtube Recommendations -> Learns from your watch history
+    2. Spam Detection in Gmail -> Learns Patterns in spam emails
+    3. Voice Assistant(Siri, Alexa) -> Learn how you speak
+    4. Self-driving cars -> Learn to identify stop signs, pedestrians, and roads
+    5. Face Unlock on phones -> Learns to recognize your Face
 
-Supervised Learning 
-We train machine based on input nd output cabins from that machine creates pattern nd gives output 
+# Types of ML
+    Supervised Learning 
+    We train machine based on input nd output cabins from that machine creates pattern nd gives output 
 
-Unsupervised learning 
-In this we get data buf we don't predict anything 
-We just put data in it in format of input
+    Unsupervised learning 
+    In this we get data buf we don't predict anything 
+    We just put data in it in format of input
 
-Reinforcement Learning 
-This training is like teaching dog it's based on trial nd error if machine gives right ans we will reward else will punish 
-Ex Machine playing flappy game
-EDA - Exploratory Data Analysis 
-We explore data in EDA
-Viewing Data
-* head() shape info, tail
-Summary statistics 
-Mean, median, mode, std, min, max
+    Reinforcement Learning 
+    This training is like teaching dog it's based on trial nd error if machine gives right ans we will reward else will punish 
+    Ex Machine playing flappy game
 
-Value counts - How many uniques values are there 
+# EDA - Exploratory Data Analysis 
+    We explore data in EDA
+    Viewing Data
+    * head() shape info, tail
+    Summary statistics 
+    Mean, median, mode, std, min, max
 
-Missing value analysis 
-Visualization 
-Target variable exploration
+    Value counts - How many uniques values are there 
+
+    Missing value analysis 
+    Visualization 
+    Target variable exploration
+
+# Data cleaning 
+1. Removes Duplicates
+2. Fix Data types
+3. Handle inconsistent Categories
+4. Detect and Handle Outliers
+5. Fix Logic or Domain errors
+
+    EDA tells you what's wrong. Data cleaning Fixes it . Cleaning is not glamorous, but it's 80% of the work in real world projects
+
+# Data preprocessing
+    To prepare clean data so it can be analyzed or used in a machine learning Model.
+    If Data Cleaning is about fixing mistakes,
+    Data Preprocessing is about transforming valid data into a usable format.
+    1. Encoding categorical variables
+    2. Two common methods :
+        * Lable Encoding(ordinal)
+        * One-Hot Encoding(nominal)
+    3. Feature Transformation
+    4. Feature Scaling (Normalization and Standardization)
