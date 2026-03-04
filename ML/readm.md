@@ -36,11 +36,11 @@
     Target variable exploration
 
 # Data cleaning 
-1. Removes Duplicates
-2. Fix Data types
-3. Handle inconsistent Categories
-4. Detect and Handle Outliers
-5. Fix Logic or Domain errors
+    1. Removes Duplicates
+    2. Fix Data types
+    3. Handle inconsistent Categories
+    4. Detect and Handle Outliers
+    5. Fix Logic or Domain errors
 
     EDA tells you what's wrong. Data cleaning Fixes it . Cleaning is not glamorous, but it's 80% of the work in real world projects
 
@@ -59,4 +59,16 @@
         Scales values betn 0 and 1
     Standardization(Z-score Scaling ):
         Transforms data to have mean 0 and 1
-    
+
+# Feature Engineering 
+    Creating new features or transforming existing ones to expose useful patterns that ML models can learn
+    ML models don't know domain logic we have to give them the right signals
+
+    Techniques : 
+            * Mathematical combinations
+            * Target based flags
+            * Binning (when it helps)
+            * Time-Based Features(if time exists)
+
+# Feature Selection
+    selecting the most useful features and removing the rest 
