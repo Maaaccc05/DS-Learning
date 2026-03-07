@@ -80,3 +80,7 @@
 
     Regression is way to predict a number. It helps us find out how one thing change when something else changes
     Regression is about finding pattern and numbers so we can make smart predictions
+
+# How to create best fit line
+
+    y = mx + b -----> m = slope, b = Intercept, x = Data point, y = prediction
