@@ -1,3 +1,4 @@
+#display image
 import cv2
 
 image = cv2.imread("OpenCV/minato-namikaze-3840x2160-24353.png")
@@ -9,6 +10,9 @@ if image is not None:
 else:
     print("Could not load the image")
 
+
+# Save Image
+
 if image is not None:
     success = cv2.imwrite("output_python.png", image)
     if success:
@@ -16,4 +20,5 @@ if image is not None:
     else:
         print("Not saved")
 else:
-    print("Error")
+    print("Error") 
+
