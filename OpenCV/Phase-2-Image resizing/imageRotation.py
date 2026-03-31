@@ -25,3 +25,22 @@ else:
     cv2.imshow("90 degree Rotation", rotated)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+
+# Image Flipping
+
+if image is None:
+    print("Could not load")
+else:
+    resized = cv2.resize(image, (500, 500))
+
+    flipped_horizontal = cv2.flip(resized, 1)
+    flipped_vertical = cv2.flip(resized, 0)
+    both_flip = cv2.flip(resized, -1)
+
+    cv2.imshow("Original", resized)
+    cv2.imshow("Horizontal", flipped_horizontal)
+    cv2.imshow("Vertical", flipped_vertical)
+    cv2.imshow("Both", both_flip)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
