@@ -20,17 +20,36 @@ image = cv2.imread("OpenCV/dmxffni837f1xrj8pki9xgrl.jpg")
 # Drawing rectangle 
 # syntax: cv2.rectangle(image, pt1, pt2, color, thickness)
 
+# if image is None:
+#     print("Not found")
+
+# else:
+#     print("Image Loaded")
+#     pt1 = (250, 30)
+#     pt2 = (600, 350)
+#     color = (0, 0, 255)
+#     thickness = 3
+
+#     cv2.rectangle(image, pt1, pt2, color, thickness)
+
+#     cv2.imshow("Rectangle", image)
+#     cv2.waitKey(0)
+#     cv2.destroyAllWindows()
+
+# Drawing Circle
+# Syntax: cv2.circle(imgae, center, radius, color, thickness)
+
 if image is None:
     print("Not found")
 
 else:
     print("Image Loaded")
-    pt1 = (250, 30)
-    pt2 = (600, 350)
+    center = (400, 200)
+    radius = 200
     color = (0, 0, 255)
     thickness = 3
 
-    cv2.rectangle(image, pt1, pt2, color, thickness)
+    cv2.circle(image, center, radius, color, thickness)
 
     cv2.imshow("Rectangle", image)
     cv2.waitKey(0)
