@@ -28,4 +28,5 @@ cv2.destroyAllWindows()
 
 
 
-#
+# Sharpening an Image Syntax: cv2.filter2D(src, ddepth, kernel)
+
