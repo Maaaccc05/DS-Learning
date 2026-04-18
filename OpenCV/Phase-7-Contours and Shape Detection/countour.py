@@ -10,13 +10,13 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("OpenCV/Phase-7-Contours and Shape Detection/triangle.png")
+img = cv2.imread("OpenCV/Phase-7-Contours and Shape Detection/circle.png")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-_, thresh = cv2.threshold(gray, 240, 255, cv2.THRESH_BINARY)
+_, thresh = cv2.threshold(gray, 125, 255, cv2.THRESH_BINARY)
 
 # Find Contours
 
-contours, hirearchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
 cv2.drawContours(img, contours, -1, (0,255,0), 3)
 
@@ -31,10 +31,10 @@ for contour in contours:
         shape_name = "Rectangle"
     elif corners == 5:
         shape_name = "Pentagon"
-    elif corners > 5:
+    elif corners > 8:
         shape_name = "Circle"
     else:
-        print("Unknown")
+        shape_name = ("Unknown")
     
     cv2.drawContours(img, [approx], 0, (0, 0, 255), 3)
     x = approx.ravel()[0]
