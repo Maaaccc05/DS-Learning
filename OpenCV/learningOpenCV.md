@@ -12,3 +12,5 @@ height = total number of pixels vertically top ---> bottom
 format of image - jpg,png,bmp,tiff
 
 Video captured by openCV are save in 2 formats which are ---> .avi(audio, video interleave) and .mp4 
+
+# https://github.com/opencv/opencv/tree/master/data/haarcascades for xml files
