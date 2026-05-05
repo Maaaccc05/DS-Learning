@@ -94,3 +94,16 @@ Done with linear regression and repeat convergence theory
     Formula of R^2 : 1-(sum of residual)/(sum of total)
 
     Formula of adjusted_r2 = 1 - ((1-R^2)*(n-1)/ (n-p-1))  here n is no. of rows and p are the features
+
+
+# Overfitting & UnderFitting
+
+    Overfitting:
+    
+        Training ---> Model perform better  (Low bias)
+        Testing ---> Model does not perform good  (High Variance)
+    
+    Underfitting:
+
+        Training ---> Model performs bad (High bias)
+        Testing ---> Model does not perform good (High Variance)
