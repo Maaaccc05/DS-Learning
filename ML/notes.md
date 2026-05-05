@@ -97,7 +97,7 @@ Done with linear regression and repeat convergence theory
 
 
 # Overfitting & UnderFitting
-
+    
     Overfitting:
     
         Training ---> Model perform better  (Low bias)
